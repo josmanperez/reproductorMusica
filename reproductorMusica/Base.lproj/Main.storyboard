@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Reproductor de Música-->
@@ -77,29 +79,40 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yhW-mI-0JO">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yhW-mI-0JO">
                                             <rect key="frame" x="8" y="2" width="85" height="85"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="85" id="22q-Ca-BPj"/>
+                                                <constraint firstAttribute="width" constant="85" id="7qu-8F-fFd"/>
+                                                <constraint firstAttribute="width" secondItem="yhW-mI-0JO" secondAttribute="height" multiplier="1:1" id="8lj-bO-CfL"/>
                                                 <constraint firstAttribute="width" constant="85" id="To3-zI-Ntf"/>
+                                                <constraint firstAttribute="height" constant="85" id="aSC-Et-Xng"/>
+                                                <constraint firstAttribute="width" constant="85" id="fEF-sW-mQR"/>
+                                                <constraint firstAttribute="width" secondItem="yhW-mI-0JO" secondAttribute="height" multiplier="1:1" id="nAm-bD-MUr"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="22q-Ca-BPj"/>
+                                                    <exclude reference="7qu-8F-fFd"/>
+                                                    <exclude reference="8lj-bO-CfL"/>
+                                                    <exclude reference="To3-zI-Ntf"/>
+                                                    <exclude reference="nAm-bD-MUr"/>
+                                                </mask>
+                                            </variation>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6R-qx-zMx">
                                             <rect key="frame" x="101" y="8" width="211" height="73"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="73" id="xiB-1x-n5o"/>
-                                            </constraints>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="Q6R-qx-zMx" firstAttribute="width" secondItem="6mj-ek-L7E" secondAttribute="width" constant="-109" id="0L3-eA-cfN"/>
-                                        <constraint firstItem="Q6R-qx-zMx" firstAttribute="leading" secondItem="yhW-mI-0JO" secondAttribute="trailing" constant="8" id="CyS-GH-KKr"/>
+                                        <constraint firstItem="Q6R-qx-zMx" firstAttribute="trailing" secondItem="6mj-ek-L7E" secondAttribute="trailingMargin" id="56u-z6-lcL"/>
+                                        <constraint firstItem="Q6R-qx-zMx" firstAttribute="centerY" secondItem="yhW-mI-0JO" secondAttribute="centerY" id="AcL-0g-Y3c"/>
                                         <constraint firstItem="yhW-mI-0JO" firstAttribute="centerY" secondItem="6mj-ek-L7E" secondAttribute="centerY" id="IUo-wx-oh1"/>
-                                        <constraint firstItem="Q6R-qx-zMx" firstAttribute="centerY" secondItem="6mj-ek-L7E" secondAttribute="centerY" id="lnw-oX-fzv"/>
-                                        <constraint firstItem="Q6R-qx-zMx" firstAttribute="centerX" secondItem="6mj-ek-L7E" secondAttribute="centerX" constant="46.5" id="qLV-Rm-WA0"/>
+                                        <constraint firstItem="Q6R-qx-zMx" firstAttribute="top" secondItem="6mj-ek-L7E" secondAttribute="topMargin" id="W1d-Xb-Lsf"/>
+                                        <constraint firstItem="Q6R-qx-zMx" firstAttribute="leading" secondItem="yhW-mI-0JO" secondAttribute="trailing" constant="8" symbolic="YES" id="hmx-hn-BjB"/>
                                         <constraint firstItem="yhW-mI-0JO" firstAttribute="centerX" secondItem="6mj-ek-L7E" secondAttribute="centerX" constant="-109.5" id="sZh-SC-5fq"/>
                                     </constraints>
                                 </tableViewCellContentView>
