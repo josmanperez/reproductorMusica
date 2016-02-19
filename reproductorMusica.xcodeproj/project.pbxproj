@@ -7,24 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1EADD81C777DCA00F9FA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EADD71C777DCA00F9FA6A /* Assets.xcassets */; };
+		9C1EADDD1C77887A00F9FA6A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EADDC1C77887A00F9FA6A /* DetailViewController.swift */; };
+		9C1EADDF1C778E6400F9FA6A /* Vargaft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EADDE1C778E6400F9FA6A /* Vargaft.mp3 */; };
+		9C1EADE11C778EA400F9FA6A /* Wonderwall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EADE01C778EA400F9FA6A /* Wonderwall.mp3 */; };
+		9C1EADE31C778EC600F9FA6A /* Acoustic_sunset.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EADE21C778EC600F9FA6A /* Acoustic_sunset.mp3 */; };
+		9C1EADE51C778ECB00F9FA6A /* Emotional_piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EADE41C778ECB00F9FA6A /* Emotional_piano.mp3 */; };
+		9C1EADE71C778F4300F9FA6A /* Sun_Models.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C1EADE61C778F4300F9FA6A /* Sun_Models.mp3 */; };
 		9CD903BF1C75A40B00F2A740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD903BE1C75A40B00F2A740 /* AppDelegate.swift */; };
 		9CD903C41C75A40B00F2A740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD903C21C75A40B00F2A740 /* Main.storyboard */; };
-		9CD903C61C75A40B00F2A740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD903C51C75A40B00F2A740 /* Assets.xcassets */; };
 		9CD903C91C75A40B00F2A740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD903C71C75A40B00F2A740 /* LaunchScreen.storyboard */; };
 		9CD903D11C75A5BC00F2A740 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD903D01C75A5BC00F2A740 /* TableViewController.swift */; };
 		9CD903D31C75A5C600F2A740 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD903D21C75A5C600F2A740 /* Modelo.swift */; };
+		9CD903D61C770CAB00F2A740 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD903D51C770CAB00F2A740 /* BackgroundView.swift */; };
+		9CD903DA1C770DB500F2A740 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD903D91C770DB500F2A740 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C1EADD71C777DCA00F9FA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = reproductorMusica/Assets.xcassets; sourceTree = "<group>"; };
+		9C1EADDC1C77887A00F9FA6A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9C1EADDE1C778E6400F9FA6A /* Vargaft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Vargaft.mp3; sourceTree = "<group>"; };
+		9C1EADE01C778EA400F9FA6A /* Wonderwall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Wonderwall.mp3; path = reproductorMusica/Wonderwall.mp3; sourceTree = "<group>"; };
+		9C1EADE21C778EC600F9FA6A /* Acoustic_sunset.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Acoustic_sunset.mp3; sourceTree = "<group>"; };
+		9C1EADE41C778ECB00F9FA6A /* Emotional_piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Emotional_piano.mp3; sourceTree = "<group>"; };
+		9C1EADE61C778F4300F9FA6A /* Sun_Models.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sun_Models.mp3; sourceTree = "<group>"; };
 		9CD903BB1C75A40B00F2A740 /* reproductorMusica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reproductorMusica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD903BE1C75A40B00F2A740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD903C31C75A40B00F2A740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9CD903C51C75A40B00F2A740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD903C81C75A40B00F2A740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CD903CA1C75A40B00F2A740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CD903D01C75A5BC00F2A740 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9CD903D21C75A5C600F2A740 /* Modelo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
-		9CD903D41C75A7CF00F2A740 /* Sun_Models.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sun_Models.m4a; sourceTree = "<group>"; };
+		9CD903D51C770CAB00F2A740 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		9CD903D91C770DB500F2A740 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +53,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C1EADD41C777ABC00F9FA6A /* Musica */ = {
+			isa = PBXGroup;
+			children = (
+				9C1EADE61C778F4300F9FA6A /* Sun_Models.mp3 */,
+				9C1EADE21C778EC600F9FA6A /* Acoustic_sunset.mp3 */,
+				9C1EADE41C778ECB00F9FA6A /* Emotional_piano.mp3 */,
+				9C1EADDE1C778E6400F9FA6A /* Vargaft.mp3 */,
+				9C1EADE01C778EA400F9FA6A /* Wonderwall.mp3 */,
+			);
+			name = Musica;
+			sourceTree = "<group>";
+		};
 		9CD903B21C75A40900F2A740 = {
 			isa = PBXGroup;
 			children = (
+				9C1EADD71C777DCA00F9FA6A /* Assets.xcassets */,
+				9C1EADD41C777ABC00F9FA6A /* Musica */,
 				9CD903BD1C75A40B00F2A740 /* reproductorMusica */,
 				9CD903BC1C75A40B00F2A740 /* Products */,
 			);
@@ -59,12 +88,13 @@
 			children = (
 				9CD903BE1C75A40B00F2A740 /* AppDelegate.swift */,
 				9CD903C21C75A40B00F2A740 /* Main.storyboard */,
-				9CD903C51C75A40B00F2A740 /* Assets.xcassets */,
 				9CD903C71C75A40B00F2A740 /* LaunchScreen.storyboard */,
 				9CD903CA1C75A40B00F2A740 /* Info.plist */,
-				9CD903D41C75A7CF00F2A740 /* Sun_Models.m4a */,
 				9CD903D01C75A5BC00F2A740 /* TableViewController.swift */,
+				9C1EADDC1C77887A00F9FA6A /* DetailViewController.swift */,
 				9CD903D21C75A5C600F2A740 /* Modelo.swift */,
+				9CD903D51C770CAB00F2A740 /* BackgroundView.swift */,
+				9CD903D91C770DB500F2A740 /* TableViewCell.swift */,
 			);
 			path = reproductorMusica;
 			sourceTree = "<group>";
@@ -128,8 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CD903C91C75A40B00F2A740 /* LaunchScreen.storyboard in Resources */,
-				9CD903C61C75A40B00F2A740 /* Assets.xcassets in Resources */,
+				9C1EADD81C777DCA00F9FA6A /* Assets.xcassets in Resources */,
+				9C1EADE51C778ECB00F9FA6A /* Emotional_piano.mp3 in Resources */,
+				9C1EADE31C778EC600F9FA6A /* Acoustic_sunset.mp3 in Resources */,
 				9CD903C41C75A40B00F2A740 /* Main.storyboard in Resources */,
+				9C1EADE71C778F4300F9FA6A /* Sun_Models.mp3 in Resources */,
+				9C1EADDF1C778E6400F9FA6A /* Vargaft.mp3 in Resources */,
+				9C1EADE11C778EA400F9FA6A /* Wonderwall.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD903DA1C770DB500F2A740 /* TableViewCell.swift in Sources */,
 				9CD903D31C75A5C600F2A740 /* Modelo.swift in Sources */,
 				9CD903BF1C75A40B00F2A740 /* AppDelegate.swift in Sources */,
+				9C1EADDD1C77887A00F9FA6A /* DetailViewController.swift in Sources */,
+				9CD903D61C770CAB00F2A740 /* BackgroundView.swift in Sources */,
 				9CD903D11C75A5BC00F2A740 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +328,7 @@
 				9CD903CF1C75A40B00F2A740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

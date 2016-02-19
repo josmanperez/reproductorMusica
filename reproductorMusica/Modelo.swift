@@ -11,19 +11,23 @@ import UIKit
 
 
 struct Cancion {
-    let cancionesArray = [
-        ["Sun_Models":UIImage(named: "sun-models-odesza")!],
-    ]
+  let cancionesArray = [
+    ["titulo":"Sun_Models","imagen":UIImage(named: "sun-models-odesza")!,"descripcion": "Odeszza - Sun Models"],
+    ["titulo":"Vargaft","imagen":UIImage(named: "deafnoise")!,"descripcion":"Deaf Noise - Vargaft"],
+    ["titulo":"Acoustic_sunset","imagen":UIImage(named: "guitar")!,"descripcion":"Guitar - Emotional song"],
+    ["titulo":"Emotional_piano","imagen":UIImage(named: "piano")!,"descripcion":"Piano - Love Song"],
+    ["titulo":"Wonderwall","imagen":UIImage(named: "wonderwall")!,"descripcion":"Oasis - Wonderwall"]
+  ]
+  
+  func randomSong() -> [String:AnyObject] {
+    let unsignedArrayCount = UInt32(cancionesArray.count)
+    let usignedRandomNumber = arc4random_uniform(unsignedArrayCount)
+    let randomNumber = Int(usignedRandomNumber)
     
-    func randomSong() -> [String:UIImage] {
-        let unsignedArrayCount = UInt32(cancionesArray.count)
-        let usignedRandomNumber = arc4random_uniform(unsignedArrayCount)
-        let randomNumber = Int(usignedRandomNumber)
-        
-        return cancionesArray[randomNumber]
-        
-    }
-
+    return cancionesArray[randomNumber]
+    
+  }
+  
 }
 
 //let cancion1:Cancion = Cancion(nombre: "Sun_Models", portada: UIImage(named: "sun-models-odesza")!)
